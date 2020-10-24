@@ -1,0 +1,43 @@
+.modal {
+  min-height: 10px;
+  min-width: 400px;
+  left: 50%;
+  top: 50%;
+  margin: -100px -200px;
+  position: absolute;
+  display: flexbox;
+  background: #ffffff;
+  padding: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #1e90ff;
+  transition: 0.1s all linear;
+}
+
+.modal:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  transition: 0.1s all linear;
+}
+
+.modal .header {
+  display: block;
+  background: #ffffff;
+  margin: 0 auto;
+  color: black;
+  padding: 0;
+  border-bottom: 1px solid #1e90ff;
+}
+
+.modal .children {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.modal .controls {
+  position: block;
+}
+
+.controls div {
+  text-align: center;
+  margin-top: 10px;
+}

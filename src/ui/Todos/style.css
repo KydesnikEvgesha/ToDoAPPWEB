@@ -1,0 +1,113 @@
+/* .container {
+  width: 100%;
+}
+
+.box {
+  white-space: nowrap;
+}
+
+.todos {
+  padding: 5px 15px;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: 0.1s all linear;
+  white-space: normal;
+}
+
+.todos:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.1s all linear;
+  transform: scale(1.01);
+}
+
+.todos:last-child {
+  margin-right: 0;
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  padding: 1px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px -2px 5px - rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.list .success {
+  border-color: green;
+  border-left: 10px solid green;
+}
+
+.list .fail {
+  border-color: red;
+  border-left: 10px solid red;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+.todos {
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 15px;
+  transition: 0.1s all linear;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.todos > h3 {
+  transition: 0.1s all linear;
+  padding: 15px 10px;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 20px;
+}
+
+.todos > h3:hover {
+  cursor: pointer;
+}
+
+.todos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todos ul {
+  margin: 5px 0;
+}
+
+.todos ul li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.list .success {
+  border-color: green;
+  border-left: 4px solid green;
+}
+
+.list .fail {
+  border-color: red;
+  border-left: 4px solid red;
+}

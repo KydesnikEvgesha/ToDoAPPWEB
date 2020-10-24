@@ -1,0 +1,37 @@
+input[type="button"] {
+  background: #1e90ff;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.1s;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #1e90ff;
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+input[type="button"]:hover {
+  background: #ffffff;
+  color: #1e90ff;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+input[type="button"]:active,
+input[type="button"]:focus {
+  outline: none;
+}
+
+input[class="deleteButton"] {
+  background: none;
+  border: 0;
+  color: red;
+}
+
+input[class="deleteButton"]:hover {
+  background-color: red;
+  color: white;
+  border: 0;
+}
